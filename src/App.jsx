@@ -1,12 +1,11 @@
 import Home from "./components/Home"
 import About from "./components/About"
+import Navbar from "./components/Navbar"
 
 export default function App() {
   return(
     <>
-      <h1>Hello Riya</h1>
-      {/* <Home /> */}
-      {0 < 1 ? <Home/> : <About/>};
+      <Navbar/>
     </>
   )
 }
