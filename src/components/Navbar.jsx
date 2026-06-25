@@ -3,6 +3,7 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import React from 'react'
+import Login from "./Login"
 
 export default function Navbar() {
   return (
@@ -12,6 +13,8 @@ export default function Navbar() {
       <Link to="/About">ABOUT</Link>
       <br></br>
       <Link to="/Contact">CONTACT</Link>
+      <br />
+      <Link to="/Login">LOGIN</Link>
 
 
       <Routes>
@@ -19,6 +22,7 @@ export default function Navbar() {
         <Route path="/Home" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Contact" element={<Contact/>}/>
+        <Route path="/Login" element={<Login/>}/>
       </Routes>
     </>
 
